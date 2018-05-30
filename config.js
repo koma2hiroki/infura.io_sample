@@ -1,6 +1,6 @@
 
 // 注意！
-// 本来はソースコード上に鍵情報を書かないてください！
+// 本来はソースコード上に鍵情報を絶対書かないてください！
 
 module.exports = {
   url: "https://ropsten.infura.io/u7EpBqPw9wCLJPH4Pr3H",

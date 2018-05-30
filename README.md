@@ -5,9 +5,11 @@ infura.ioを扱うサンプルソースコードです。
 
 ## フォルダ構成
 
-#### contracts
+#### contract
 
-コントラクト側プログラムです。
+シンプルなSolidityプログラムです。
+
+`contract/contracts/Sample.sol`
 
 #### node
 
@@ -36,9 +38,24 @@ node index.js
 
 最後に表示される `changed data` の値が1以上になっていれば成功です。
 
-プログラムを動かすごとにカウントアップしていきます。
+プログラムを動かすごとに値がカウントアップしていきます。
 
 
 ## 注意事項
 
-ソースコード上に鍵情報が書かれていますが、本来このようなことは絶対に行わないでください！
+**ソースコード上に鍵情報が書かれていますが、本来このようなことは絶対に行わないでください！**
+
+
+また、鍵情報をソースコードに書いてあるため、ETHがなくなる可能性があります。
+
+その場合は、ETHアカウントを作成して、 `config.js` の情報を書き換えてください。
+
+#### 1. アカウントの作成  
+https://iancoleman.io/bip39/
+
+- `Coin` に `ETH - Ethereum` を選択
+- `Mnemonic Language` の `English` を選択
+- `Derived Addresses` の情報をコピー
+
+#### 2. RopstenのETHを手に入れる  
+http://faucet.ropsten.be:3001/
