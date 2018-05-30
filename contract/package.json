@@ -1,0 +1,13 @@
+{
+  "name": "contract",
+  "description": "contract側 | infura.ioの受信/更新のサンプル",
+  "version": "0.0.1",
+  "scripts": {
+    "migrate": "truffle migrate --network infura --reset"
+  },
+  "dependencies": {
+    "truffle": "^4.0.4",
+    "truffle-hdwallet-provider": "0.0.3",
+    "zeppelin-solidity": "1.5.0"
+  }
+}

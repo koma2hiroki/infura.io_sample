@@ -1,0 +1,13 @@
+{
+  "name": "node",
+  "description": "node側 | infura.ioの受信/更新のサンプル",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.4",
+    "web3": "^1.0.0-beta.34"
+  }
+}
