@@ -1,6 +1,5 @@
 {
   "name": "contract",
-  "description": "contract側 | infura.ioの受信/更新のサンプル",
   "version": "0.0.1",
   "scripts": {
     "migrate": "truffle migrate --network infura --reset"

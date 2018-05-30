@@ -1,6 +1,5 @@
 {
   "name": "node",
-  "description": "node側 | infura.ioの受信/更新のサンプル",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
