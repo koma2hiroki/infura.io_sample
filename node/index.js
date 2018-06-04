@@ -23,7 +23,7 @@ Promise.resolve().then(() => {
 }).then(() => {
   // gasPrice の確認
   return web3.eth.getGasPrice().then((_) => {
-    data.gasPrice = web3.utils.toHex(_ * 100);
+    data.gasPrice = web3.utils.toHex(_);
     console.log(`gasPrice : ${_} / ${web3.utils.fromWei(_ ,'Gwei')} `);
   });
 
